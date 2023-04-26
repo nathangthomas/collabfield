@@ -34,6 +34,8 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'bootstrap_form'
 
+gem 'pry', '~> 0.13.1'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
@@ -74,6 +76,7 @@ end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
+  gem "launchy"
   gem "selenium-webdriver"
   gem "webdrivers"
   gem 'rspec-rails', '~> 3.6'
